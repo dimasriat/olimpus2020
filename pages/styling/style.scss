@@ -1,0 +1,41 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	h1 {
+		font-size: 2rem;
+		display: inline-block;
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
+		li {
+			a {
+				color: black;
+				font-weight: bold;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	background-color: white;
+}
+
+.container {
+	padding: 0 1rem;
+}
