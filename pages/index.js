@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 function HomePage() {
 	return (
 		<div className="container">
-			<Navbar title="dimskuy" />
+			<Navbar title="OLIMPUSSS" />
 			<h1>Hello world ini home</h1>
 		</div>
 	);
