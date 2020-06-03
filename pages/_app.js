@@ -1,33 +1,41 @@
-//import "./styling/style.scss";
+import color from "../utils/Color";
+import menu from "../utils/Menu"
+import { useState } from "react";
 
-import { Container } from "next/app";
-
-export default function MyApp({ Component, pageProps }) {
-	const primary = "rgb(32, 191, 107)";
+const App = ({ Component, pageProps }) => {
+	const [light, setLight] = useState(true);
+	const Color = color[light ? "LIGHT" : "DARK"];
+	
 	return (
-		<Container>
-			<Component {...pageProps} />
+		<>
+			<Component
+				{...pageProps}
+				Color={Color}
+				setLight={setLight}
+				menu={menu}
+			/>
 			<style jsx global>{`
 				* {
 					box-sizing: border-box;
 				}
-
 				body {
 					margin: 0;
 					padding: 0;
-					font-family: 'Gilroy', sans-serif;
-					background-color: ${primary};
+					font-family: "Gilroy", sans-serif;
+					color: ${Color.font};
+					background-color: ${Color.bg};
 				}
-
 				html,
 				body,
 				body > div:first-child,
-				div#__next,
-				div#__next > div,
-				div#__next > div > div {
-					height: 100%;
+				div#_next,
+				div#_next > div,
+				div#_next > div > div {
+					min-height: 100%;
 				}
 			`}</style>
-		</Container>
+		</>
 	);
-}
+};
+
+export default App;

@@ -9,12 +9,14 @@ const Home = (props) => {
 				Color={props.Color}
 				setLight={props.setLight}
 				menu={props.menu}
+				active={"/olahraga"}
 			/>
-			<Jumbotron Color={props.Color}>
-				Olimpus adalah sebuah event yang diselenggarakan oleh Keluarga
-				Besar Mahasiswa (KBM) Universitas Sebelas Maret Surakarta. Event
-				ini mencakup bidang keolahragaan, seni budaya, penalaran dan
-				keilmiahan, Sebelas Maret Award, Komda dan duta kampus.
+			<Jumbotron Color={props.Color} title="OLAHRAGA">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+				eget pellentesque quam, convallis aliquet nulla. Maecenas a
+				felis tristique, ullamcorper est in, sodales urna. Mauris
+				iaculis sapien commodo posuere auctor. Nunc bibendum molestie
+				mollis.
 			</Jumbotron>
 			<Footer Color={props.Color} />
 		</div>
