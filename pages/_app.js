@@ -1,7 +1,6 @@
 import color from "../utils/Color";
 import menu from "../utils/Menu";
 import { useState } from "react";
-import "../public/global.css";
 
 const App = ({ Component, pageProps }) => {
 	const [light, setLight] = useState(true);
@@ -19,6 +18,18 @@ const App = ({ Component, pageProps }) => {
 			<style jsx global>{`
 				* {
 					box-sizing: border-box;
+				}
+				@font-face {
+					font-family: 'Gilroy';
+					src: url("/Gilroy-Light.otf") format("opentype");
+					font-weight: normal;
+					font-style: normal;
+				}
+				@font-face {
+					font-family: 'Gilroy';
+					src: url("/Gilroy-ExtraBold.otf") format("opentype");
+					font-weight: bold;
+					font-style: normal
 				}
 				body {
 					margin: 0;
