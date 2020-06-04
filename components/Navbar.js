@@ -72,7 +72,7 @@ const NavSearch = (props) => {
 				}
 
 				.search-bar {
-					max-width: 16rem;
+					width: 100%;
 					background-color: ${Color.secondary};
 					border: none;
 					padding: 0.5rem;
