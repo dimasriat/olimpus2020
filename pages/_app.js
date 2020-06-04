@@ -20,14 +20,14 @@ const App = ({ Component, pageProps }) => {
 					box-sizing: border-box;
 				}
 				@font-face {
-					font-family: 'Gilroy';
-					src: url("/Gilroy-Light.otf") format("opentype");
+					font-family: "Gilroy";
+					src: url("/fonts/Gilroy-Light.otf") format("opentype");
 					font-weight: normal;
 					font-style: normal;
 				}
 				@font-face {
-					font-family: 'Gilroy';
-					src: url("/Gilroy-ExtraBold.otf") format("opentype");
+					font-family: "Gilroy";
+					src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
 					font-weight: bold;
 					font-style: normal
 				}
