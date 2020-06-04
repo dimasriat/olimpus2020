@@ -7,6 +7,7 @@ const Home = (props) => {
 		<div>
 			<Navbar
 				Color={props.Color}
+				light={props.light}
 				setLight={props.setLight}
 				menu={props.menu}
 			/>

@@ -11,10 +11,23 @@ const App = ({ Component, pageProps }) => {
 			<Component
 				{...pageProps}
 				Color={Color}
+				light={light}
 				setLight={setLight}
 				menu={menu}
 			/>
 			<style jsx global>{`
+				@font-face {
+					font-family: 'Gilroy';
+					src: url('../public/Gilroy-Light.otf') format("opentype");
+					font-weight: normal;
+					font-style: normal;
+				}
+				@font-face {
+					font-family: 'Gilroy';
+					src: url("../public/Gilroy-ExtraBold.otf") format("opentype");
+					font-weight: bold;
+					font-style: normal
+				}
 				* {
 					box-sizing: border-box;
 				}

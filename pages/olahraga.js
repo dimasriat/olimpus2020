@@ -2,13 +2,14 @@ import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import Footer from "../components/Footer";
 
-const Home = (props) => {
+const Olahraga = (props) => {
 	return (
 		<div>
 			<Navbar
 				Color={props.Color}
 				setLight={props.setLight}
 				menu={props.menu}
+				light={props.light}
 				active={"/olahraga"}
 			/>
 			<Jumbotron Color={props.Color} title="OLAHRAGA">
@@ -23,4 +24,4 @@ const Home = (props) => {
 	);
 };
 
-export default Home;
+export default Olahraga;

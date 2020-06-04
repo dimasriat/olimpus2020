@@ -13,6 +13,7 @@ const Footer = (props) => {
 					padding: 2rem 0 8rem;
 					background-color: ${Color.bg};
 					color: ${Color.font};
+					border-top: 1px solid ${Color.secondary};
 				}
 			`}</style>
 		</div>
