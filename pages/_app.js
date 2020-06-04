@@ -1,7 +1,7 @@
 import color from "../utils/Color";
 import menu from "../utils/Menu";
 import { useState } from "react";
-import './public/global.css'
+import "../public/global.css";
 
 const App = ({ Component, pageProps }) => {
 	const [light, setLight] = useState(true);
