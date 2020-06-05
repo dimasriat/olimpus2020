@@ -13,11 +13,9 @@ const Olahraga = (props) => {
 				active={"/olahraga"}
 			/>
 			<Jumbotron Color={props.Color} title="OLAHRAGA">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-				eget pellentesque quam, convallis aliquet nulla. Maecenas a
-				felis tristique, ullamcorper est in, sodales urna. Mauris
-				iaculis sapien commodo posuere auctor. Nunc bibendum molestie
-				mollis.
+				Etiam luctus imperdiet justo eu sagittis. Pellentesque habitant
+				morbi tristique senectus et netus et malesuada fames ac turpis
+				egestas. Mauris iaculis sapien commodo posuere auctor.
 			</Jumbotron>
 			<Footer Color={props.Color} />
 		</div>

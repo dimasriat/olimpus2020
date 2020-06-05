@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
+import VideoTeaser from "../components/VideoTeaser";
 import Footer from "../components/Footer";
 
 const Home = (props) => {
@@ -17,6 +18,7 @@ const Home = (props) => {
 				ini mencakup bidang keolahragaan, seni budaya, penalaran dan
 				keilmiahan, Sebelas Maret Award, Komda dan duta kampus.
 			</Jumbotron>
+			<VideoTeaser Color={props.Color} />
 			<Footer Color={props.Color} />
 		</div>
 	);

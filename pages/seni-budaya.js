@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import Footer from "../components/Footer";
 
-const DutaKampus = (props) => {
+const SeniBudaya = (props) => {
 	return (
 		<div>
 			<Navbar
@@ -10,16 +10,15 @@ const DutaKampus = (props) => {
 				setLight={props.setLight}
 				menu={props.menu}
 				light={props.light}
-				active={"/duta-kampus"}
+				active={"/seni-budaya"}
 			/>
-			<Jumbotron Color={props.Color} title="DUTA KAMPUS">
-				Pellentesque at ligula eget magna aliquet posuere. Ut quis magna
-				et felis blandit aliquet in eu ipsum. Cras ac turpis tristique,
-				pellentesque eros sit amet, blandit tortor.
+			<Jumbotron Color={props.Color} title="SENI BUDAYA">
+				Maecenas a felis tristique, ullamcorper est in, sodales urna. Ut
+				sed suscipit mi. Donec laoreet ligula ut cursus tincidunt.
 			</Jumbotron>
 			<Footer Color={props.Color} />
 		</div>
 	);
 };
 
-export default DutaKampus;
+export default SeniBudaya;

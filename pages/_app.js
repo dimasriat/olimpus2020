@@ -2,10 +2,10 @@ import color from "../utils/Color";
 import menu from "../utils/Menu";
 import { useState } from "react";
 
+
 const App = ({ Component, pageProps }) => {
 	const [light, setLight] = useState(true);
 	const Color = color[light ? "LIGHT" : "DARK"];
-
 	return (
 		<>
 			<Component
@@ -18,6 +18,7 @@ const App = ({ Component, pageProps }) => {
 			<style jsx global>{`
 				* {
 					box-sizing: border-box;
+					font-family: "Gilroy", sans-serif;
 				}
 				@font-face {
 					font-family: "Gilroy";
@@ -29,12 +30,11 @@ const App = ({ Component, pageProps }) => {
 					font-family: "Gilroy";
 					src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
 					font-weight: bold;
-					font-style: normal
+					font-style: normal;
 				}
 				body {
 					margin: 0;
 					padding: 0;
-					font-family: "Gilroy", sans-serif;
 					color: ${Color.font};
 					background-color: ${Color.bg};
 				}

@@ -87,5 +87,22 @@ PAGES Sebelas Maret Award
 IDE PENGEMBANGAN
 	tiap page dibikin kiri kanan gambar + deskripsi -> tombol ke buku panduan
 	terus bikin page buku panduan jangan lupa + search ability
-	sidebar jangan lupa
+	sidebar jangan lupa	[OK]
 	form pendaftaran bikin satu aja
+	dikasih jumlah pendaftar
+
+TODO
+	footer
+	
+
+SIDEBAR
+	Lomba
+	+ Olahraga
+	+ Duta Kampus
+	+ Seni Budaya
+	+ Penalaran dan Keilmiahan
+	+ Komunitas Daerah
+	+ Sebelas Maret Award
+	Lain-lain
+	+ Rulebook
+	+ Halaman Pendaftaran
