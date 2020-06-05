@@ -12,7 +12,7 @@ const Olahraga = (props) => {
 				light={props.light}
 				active={"/olahraga"}
 			/>
-			<Jumbotron Color={props.Color} title="OLAHRAGA">
+			<Jumbotron Color={props.Color} title="OLAHRAGA" wdh={props.wdh}>
 				Etiam luctus imperdiet justo eu sagittis. Pellentesque habitant
 				morbi tristique senectus et netus et malesuada fames ac turpis
 				egestas. Mauris iaculis sapien commodo posuere auctor.

@@ -5,7 +5,7 @@ import { faArrowCircleDown as dropicon } from "@fortawesome/free-solid-svg-icons
 
 const SidebarButton = (props) => {
 	const Color = props.Color;
-	const [expand, setExpand] = useState(true);
+	const [expand, setExpand] = useState(false);
 	return (
 		<div className="container">
 			<button onClick={() => setExpand((state) => !state)}>
@@ -69,6 +69,7 @@ const SidebarLink = (props) => {
 					color: ${props.active ? Color.primary : Color.font};
 					text-decoration: none;
 					font-weight: normal;
+					font-weight: ${props.active ? "bold" : "normal"};
 				}
 
 				a:hover {

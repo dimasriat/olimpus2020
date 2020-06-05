@@ -12,7 +12,7 @@ const PenalaranDanKeilmiahan = (props) => {
 				light={props.light}
 				active={"/penalaran-dan-keilmiahan"}
 			/>
-			<Jumbotron Color={props.Color} title="PENALARAN DAN KEILMIAHAN">
+			<Jumbotron Color={props.Color} title="PENALARAN DAN KEILMIAHAN" wdh={props.wdh}>
 				Integer cursus porta iaculis. Phasellus semper condimentum diam,
 				vitae vestibulum ligula bibendum vel. Aenean tristique convallis
 				libero, vel ultricies augue fringilla nec.

@@ -12,7 +12,7 @@ const SebelasMaretAward = (props) => {
 				light={props.light}
 				active={"/sebelas-maret-award"}
 			/>
-			<Jumbotron Color={props.Color} title="SEBELAS MARET AWARD">
+			<Jumbotron Color={props.Color} title="SEBELAS MARET AWARD" wdh={props.wdh}>
 				Cras elementum sapien eget mauris semper bibendum. Mauris luctus
 				tristique bibendum. Fusce id venenatis nunc.
 			</Jumbotron>

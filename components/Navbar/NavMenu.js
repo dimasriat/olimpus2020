@@ -20,6 +20,7 @@ const NavButton = (props) => {
 					justify-content: center;
 					align-items: center;
 					color: ${props.active ? Color.primary : Color.font};
+					font-weight: ${props.active ? "bold" : "normal"};
 					text-decoration: none;
 					text-align: center;
 				}

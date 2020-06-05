@@ -12,7 +12,7 @@ const KomunitasDaerah = (props) => {
 				light={props.light}
 				active={"/komunitas-daerah"}
 			/>
-			<Jumbotron Color={props.Color} title="KOMUNITAS DAERAH">
+			<Jumbotron Color={props.Color} title="KOMUNITAS DAERAH" wdh={props.wdh}>
 				Ut a mauris egestas, ultricies leo lacinia, gravida ante. Lorem
 				ipsum dolor sit amet, consectetur adipiscing elit. Integer eros
 				elit, commodo nec semper vel, viverra in purus.

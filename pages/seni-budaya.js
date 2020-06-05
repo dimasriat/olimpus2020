@@ -12,7 +12,7 @@ const SeniBudaya = (props) => {
 				light={props.light}
 				active={"/seni-budaya"}
 			/>
-			<Jumbotron Color={props.Color} title="SENI BUDAYA">
+			<Jumbotron Color={props.Color} title="SENI BUDAYA" wdh={props.wdh}>
 				Maecenas a felis tristique, ullamcorper est in, sodales urna. Ut
 				sed suscipit mi. Donec laoreet ligula ut cursus tincidunt.
 			</Jumbotron>

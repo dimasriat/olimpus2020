@@ -1,11 +1,14 @@
 import color from "../utils/Color";
 import menu from "../utils/Menu";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 
 const App = ({ Component, pageProps }) => {
 	const [light, setLight] = useState(true);
 	const Color = color[light ? "LIGHT" : "DARK"];
+
+	const [wdh, setWdh] = useState("100%");
+	useEffect(() => setWdh(`${window.innerHeight}px`), []);
+
 	return (
 		<>
 			<Component
@@ -14,6 +17,7 @@ const App = ({ Component, pageProps }) => {
 				light={light}
 				setLight={setLight}
 				menu={menu}
+				wdh={wdh}
 			/>
 			<style jsx global>{`
 				* {

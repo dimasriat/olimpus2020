@@ -3,8 +3,8 @@ import { useState, useLayoutEffect } from "react";
 
 const Jumbotron = (props) => {
 	const Color = props.Color;
-	const [wdh, setWdh] = useState("100%");
-	useLayoutEffect(() => setWdh(`${window.innerHeight}px`), []);
+	// const [wdh, setWdh] = useState("100%");
+	// useLayoutEffect(() => setWdh(`${window.innerHeight}px`), []);
 	
 	return (
 		<div className="container">
@@ -34,7 +34,7 @@ const Jumbotron = (props) => {
 					align-items: center;
 					justify-content: center;
 					position: relative;
-					height: ${wdh};
+					height: ${props.wdh};
 				}
 
 				.wrapper {
